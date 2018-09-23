@@ -1,0 +1,32 @@
+.ResponsiveNav-rnav {
+  background-color: black;
+}
+
+.nav-container {
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+.nav-container:not(.ej2) button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.nav-container .MenuIcon path {
+  fill: white;
+}
+
+.nav-container .MenuIcon:hover path {
+  fill: #eee;
+}
+
+.nav-container .MenuIcon:active path {
+  fill: #bbb;
+}
+
+.nav-container .MenuDropDown {
+  background-color: black;
+}
