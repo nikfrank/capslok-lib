@@ -44,6 +44,7 @@ class NavDropEj2 extends Component {
         <NavDrop navItems={['Home', 'Contact']}
                  toggleMenu={this.toggleMenu}
                  menuOpen={this.state.open}
+                 transitionDuration='3s'
                  onClick={(i=> console.log(i))}>
           <button onClick={this.toggleMenu}>Menu</button>
         </NavDrop>

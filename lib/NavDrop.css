@@ -10,6 +10,7 @@
 
 .MenuDropDown {
   transition: max-height 500ms;
+  overflow-y: hidden;
 }
 
 .MenuDropDown.open {
