@@ -69,9 +69,9 @@
 
 @keyframes slideIn {
   from {
-    max-height: 0
+    max-height: 0;
   }
   to {
-    max-height: 50vh;
+    max-height: 100vh;
   }
 }

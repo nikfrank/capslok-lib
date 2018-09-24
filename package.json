@@ -1,6 +1,6 @@
 {
   "name": "capslok-lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
