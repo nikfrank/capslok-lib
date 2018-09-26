@@ -3,7 +3,7 @@ const NavDrop = require('./dist/NavDrop.js').default;
 const MenuIcon = require('./dist/MenuIcon.js').default;
 
 module.exports = {
-  ResponsiveNav,
-  NavDrop,
-  MenuIcon,
+  ResponsiveNav: ResponsiveNav,
+  NavDrop: NavDrop,
+  MenuIcon: MenuIcon,
 };
